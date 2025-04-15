@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">MyLogo</div>
+    <input type="checkbox" id="mode-toggle">
+    <label for="mode-toggle" class="toggle-switch"></label>
+
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home">
+    <h1>Hi, I'm Rakesh koduri</h1>
+    <p>Web Developer | Designer | Creator</p>
+    <img src="images/profile.png" alt="Profile" class="profile-img">
+    <div class="social-icons">
+        <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-x-twitter"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+    </div>    
+    <a href="resume/resume.pdf" target="_blank" class="btn" download>Download Resume</a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Result-oriented indivisual seeking to gain a position of Software Engineer. Proficient in Mathematics and engineering skills to aid constuction process. Ability to maintain the broad scale of a project without default or deviation</p>
+    <img src="images/profile.png" alt="About Image">
+    <div class="about-btn-container">
+        <a href="#" class="btn">Read More</a>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>My Skills</h2>
+    <div class="skills-container">
+
+        <div class="skill">
+            <p>HTML</p>
+            <div class="progress-bar">
+            <div class="progress-fill html"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <p>CSS</p>
+            <div class="progress-bar">
+            <div class="progress-fill css"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <p>Responsive Design</p>
+            <div class="progress-bar">
+            <div class="progress-fill responsive"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <p>Animations</p>
+            <div class="progress-bar">
+            <div class="progress-fill animations"></div>
+            </div>
+        </div>
+
+    </div>
+
+  </section>
+
+  <!-- Certifications Section -->
+  <section id="certifications">
+    <h2>Certifications</h2>
+    <div class="certifications-container">
+        <div class="card">
+            <h3>Frontend Development</h3>
+            <p>Issued by Coursera - 2024</p>
+            <a href="certificates/frontend.pdf" target="_blank" class="btn">View Certificate</a>
+        </div>
+        <div class="card">
+            <h3>Responsive Web Design</h3>
+            <p>Issued by freeCodeCamp - 2023</p>
+            <a href="certificates/responsive.pdf" target="_blank" class="btn">View Certificate</a>
+        </div>
+        <div class="card">
+            <h3>CSS Animations & Transitions</h3>
+            <p>Issued by Udemy - 2024</p>
+            <a href="certificates/css-animations.pdf" target="_blank" class="btn">View Certificate</a>
+        </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="projects-container">
+
+        <div class="project-card">
+            <h3>Portfolio Website</h3>
+            <p>Responsive personal portfolio built with HTML & CSS.</p>
+            <a href="#" class="btn">View Project</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Landing Page</h3>
+            <p>A clean, modern landing page for a product launch.</p>
+            <a href="#" class="btn">View Project</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Blog Layout</h3>
+            <p>Multi-column blog layout using only flexbox and grid.</p>
+            <a href="#" class="btn">View Project</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Image Gallery</h3>
+            <p>Responsive grid-based photo gallery with hover zoom effects.</p>
+            <a href="#" class="btn">View Project</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Pricing Table</h3>
+            <p>Animated pricing cards for a SaaS product, fully responsive.</p>
+            <a href="#" class="btn">View Project</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Form UI Design</h3>
+            <p>Beautiful and accessible form elements styled with CSS.</p>
+            <a href="#" class="btn">View Project</a>
+        </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Submit</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <a href="#" class="btn">Call</a>
+    <a href="#" class="btn">Email</a>
+    
+    <!-- Social Icons in Footer -->
+        <div class="social-icons-footer">
+            <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-x-twitter"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+    </footer>
+
+
+</body>
+</html>
