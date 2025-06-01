@@ -133,6 +133,11 @@ section {
     margin-bottom: 15px;
     font-weight: bold;
 }
+#home h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
 
 #home p {
     font-size: 1.2rem;
